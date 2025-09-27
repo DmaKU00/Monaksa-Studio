@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monaksa Studio Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">MONAKSA</div>
+            <ul class="nav-links">
+                <li><a onclick="scrollToSection('cover')">Home</a></li>
+                <li><a onclick="scrollToSection('about')">About</a></li>
+                <li><a onclick="scrollToSection('values')">Values</a></li>
+                <li><a onclick="scrollToSection('services')">Services</a></li>
+                <li><a onclick="scrollToSection('showcase')">Showcase</a></li>
+                <li><a onclick="scrollToSection('payment')">Payment</a></li>
+                <li><a onclick="scrollToSection('cta')">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Cover Page -->
+    <section id="cover" class="section cover">
+        <div class="container">
+            <div class="cover-content">
+                <div class="main-logo">
+                    <img src="img/logo.png" width="200px">
+                </div>
+                <h1 class="studio-name">MONAKSA STUDIO</h1>
+                <p class="tagline">"One Studio, Infinite Visions."</p>
+                <div class="year">2025</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="about-content fade-in">
+                <h2 class="section-title">Where Logic Meets Creativity</h2>
+                <p class="section-subtitle">Integrasi Disiplin Ilmu dalam Satu Entitas</p>
+                
+                <div class="description">
+                    <p><strong>Perkenalkan Monaksa Studio</strong> - sebuah studio yang mengintegrasikan berbagai disiplin ilmu ke dalam satu entitas <em>(Mon/Mono)</em> dan merupakan sumber kekuatan <em>(Aksa)</em> yang berpusat pada inovasi.</p>
+                </div>
+                
+                <div class="description">
+                    <p><strong>Visi:</strong> Menyajikan solusi yang memadukan <strong>inovasi dan integritas</strong>. Kami percaya desain terbaik lahir dari perpaduan harmonis <strong>presisi teknis (Logika)</strong> dan <strong>bakat artistik (Estetika)</strong>.</p>
+                </div>
+                
+                <div class="description">
+                    <p><strong>Citra Brand:</strong> Studio desain yang <strong>Elegan, Modern, Visioner, dan Fleksibel</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section id="values" class="section values">
+        <div class="container">
+            <h2 class="section-title">Pendekatan Holistik Kami</h2>
+            
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-title">Integrasi Logika & Estetika</div>
+                    <p>Memadukan presisi teknis dengan keindahan visual dalam setiap proyek.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-title">Sustainable Innovation</div>
+                    <p>Inovasi berkelanjutan untuk solusi jangka panjang yang bertanggung jawab.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-title">Multidisciplinary Collaboration</div>
+                    <p>Kolaborasi lintas disiplin untuk hasil yang komprehensif dan terintegrasi.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-title">Holistic Approach</div>
+                    <p>Pendekatan menyeluruh yang mempertimbangkan semua aspek proyek.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-title">Human-Centered Design</div>
+                    <p>Desain yang berpusat pada kebutuhan dan pengalaman manusia.</p>
+                </div>
+                
+                <div class="value-card">
+                    <div class="value-title">Global Collaboration</div>
+                    <p>Kolaborasi global untuk perspektif yang luas dan beragam.</p>
+                </div>
+            </div>
+            
+            <div class="clients-section">
+                <h3 class="section-subtitle">Target Klien Kami</h3>
+                <div class="clients-grid">
+                    <div class="client-card">Start-up</div>
+                    <div class="client-card">Creative Institution</div>
+                    <div class="client-card">Property Developer</div>
+                    <div class="client-card">Professional</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <div class="container">
+            <h2 class="section-title">Layanan Komprehensif</h2>
+            <p class="section-subtitle">Solusi Terintegrasi dari Konsep hingga Implementasi</p>
+            
+            <div class="services-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" onclick="showTab('creative')">Layanan Kreatif</button>
+                    <button class="tab-btn" onclick="showTab('technical')">Layanan Teknis</button>
+                    <button class="tab-btn" onclick="showTab('non-technical')">Layanan Non-Teknis</button>
+                </div>
+                
+                <div id="creative" class="tab-content active">
+                    <div class="services-category">
+                        <h3 class="category-title">Arsitektur & Interior</h3>
+                        <div class="services-grid">
+                            <div class="service-card">
+                                <h4>Pengembangan Konsep Desain</h4>
+                                <p>Sketch ide, moodboard, penentuan gaya, dan skema warna.</p>
+                            </div>
+                            <div class="service-card">
+                                <h4>Visualisasi 3D Realistis</h4>
+                                <p>Pembuatan gambar 3D eksterior dan interior berkualitas tinggi.</p>
+                            </div>
+                            <div class="service-card">
+                                <h4>Space Planning & Zoning</h4>
+                                <p>Perencanaan tata letak ruangan agar fungsional dan estetis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="services-category">
+                        <h3 class="category-title">Graphic Design</h3>
+                        <div class="services-grid">
+                            <div class="service-card">
+                                <h4>Branding & Identitas Visual</h4>
+                                <p>Desain logo, brand guideline, dan style guide lengkap.</p>
+                            </div>
+                            <div class="service-card">
+                                <h4>Desain Materi Pemasaran</h4>
+                                <p>Desain packaging, brosur, katalog, poster, dan infografis.</p>
+                            </div>
+                            <div class="service-card">
+                                <h4>Desain Konten Digital</h4>
+                                <p>Desain untuk media sosial, banner iklan, dan e-book visual.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="services-category">
+                        <h3 class="category-title">UI/UX</h3>
+                        <div class="services-grid">
+                            <div class="service-card">
+                                <h4>Wireframing & Prototyping</h4>
+                                <p>Perancangan kerangka dasar dan simulasi interaksi aplikasi/website.</p>
+                            </div>
+                            <div class="service-card">
+                                <h4>User Interface (UI) Design</h4>
+                                <p>Desain visual antarmuka (tampilan, tombol, ikon, tipografi).</p>
+                            </div>
+                            <div class="service-card">
+                                <h4>User Experience (UX) Design</h4>
+                                <p>Analisis user journey, usability testing, dan peningkatan pengalaman pengguna.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="technical" class="tab-content">
+                    <div class="services-category">
+                        <h3 class="category-title">Arsitektur & Interior</h3>
+                        <div class="services-grid">
+                            <div class="service-card">
+                                <h4>Gambar Kerja (DED)</h4>
+                                <p>Pembuatan set gambar teknis lengkap untuk panduan pembangunan.</p>
+                            </div>
+                            <div class="service-card">
+                                <h4>Detail Spesifikasi Material</h4>
+                                <p>Penentuan dan detail teknis material, furnitur, dan aksesori yang digunakan.</p>
+                            </div>
+                            <div class="service-card">
+                                <h4>Shop Drawing</h4>
+                                <p>Gambar detail khusus untuk fabrikasi atau pemasangan di lapangan.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="services-category">
+                        <h3 class="category-title">Sipil</h3>
+                        <div class="services-grid">
+                            <div class="service-card">
+                                <h4>Perhitungan Struktur</h4>
+                                <p>Analisis dan perhitungan kekuatan pondasi, kolom, balok, dan plat.</p>
+                            </div>
+                            <div class="service-card">
+                                <h4>Gambar Struktural</h4>
+                                <p>Detail penulangan, layout struktur, dan spesifikasi beton/baja.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="services-category">
+                        <h3 class="category-title">MEP (Mechanical, Electrical, Plumbing)</h3>
+                        <div class="services-grid">
+                            <div class="service-card">
+                                <h4>Perencanaan Jaringan</h4>
+                                <p>Desain tata letak sistem listrik, penerangan, AC, ventilasi, dan sanitasi.</p>
+                            </div>
+                            <div class="service-card">
+                                <h4>Perhitungan Kebutuhan Daya</h4>
+                                <p>Analisis daya listrik, kapasitas AC, dan debit air yang diperlukan.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="services-category">
+                        <h3 class="category-title">Graphic & UI/UX</h3>
+                        <div class="services-grid">
+                            <div class="service-card">
+                                <h4>Asset Delivery</h4>
+                                <p>Penyerahan source file (Ai, Ps, Figma, Sketch) siap produksi/development.</p>
+                            </div>
+                            <div class="service-card">
+                                <h4>File Preparation</h4>
+                                <p>Pengaturan file untuk cetak (resolusi, color mode, bleeding).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="non-technical" class="tab-content">
+                    <div class="services-category">
+                        <h3 class="category-title">Strategi & Konsultasi</h3>
+                        <div class="services-grid">
+                            <div class="service-card">
+                                <h4>Konsultasi Awal & Studi Kelayakan</h4>
+                                <p>Analisis kebutuhan klien, penilaian lokasi, dan studi potensi proyek.</p>
+                            </div>
+                            <div class="service-card">
+                                <h4>Audit & Review Desain</h4>
+                                <p>Evaluasi desain yang sudah ada (ruang atau digital) untuk peningkatan.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="services-category">
+                        <h3 class="category-title">Manajemen Proyek</h3>
+                        <div class="services-grid">
+                            <div class="service-card">
+                                <h4>Penyusunan RAB & BQ</h4>
+                                <p>Pembuatan Rencana Anggaran Biaya (RAB) dan Bill of Quantity (BQ) yang detail.</p>
+                            </div>
+                            <div class="service-card">
+                                <h4>Pengawasan Berkala (Supervisi)</h4>
+                                <p>Kunjungan dan pelaporan progres lapangan untuk memastikan kesesuaian dengan gambar kerja.</p>
+                            </div>
+                            <div class="service-card">
+                                <h4>Pengurusan Izin Teknis</h4>
+                                <p>Bantuan dalam persiapan dokumen teknis untuk pengajuan Izin Mendirikan Bangunan (IMB).</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="services-category">
+                        <h3 class="category-title">Administrasi & Kontrak</h3>
+                        <div class="services-grid">
+                            <div class="service-card">
+                                <h4>Penyusunan Kontrak Kerja</h4>
+                                <p>Pembuatan dokumen kontrak dan perjanjian kerja yang jelas.</p>
+                            </div>
+                            <div class="service-card">
+                                <h4>Scope Management</h4>
+                                <p>Penjelasan dan penentuan Batasan Pelayanan di awal proyek.</p>
+                            </div>
+                            <div class="service-card">
+                                <h4>Invoice & Pengaturan Pembayaran</h4>
+                                <p>Administrasi keuangan, termin pembayaran, dan laporan budgeting.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment System Section -->
+    <section id="payment" class="section payment">
+        <div class="container">
+            <h2 class="section-title">Sistem Pembayaran Transparan</h2>
+            <p class="section-subtitle">Termin Pembayaran yang Terstruktur dan Fair</p>
+            
+            <div class="payment-timeline">
+                <div class="payment-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Down Payment (DP)</h3>
+                        <div class="percentage">20-30%</div>
+                        <p><strong>Kondisi:</strong> Setelah kontrak dan Scope of Work disepakati</p>
+                        <p><strong>Tujuan:</strong> Mengaktifkan proyek, mengalokasikan tim, memulai riset, dan menyusun kick-off meeting</p>
+                    </div>
+                </div>
+                
+                <div class="payment-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Persetujuan Konsep & Kreatif</h3>
+                        <div class="percentage">30%</div>
+                        <p><strong>Kondisi:</strong> Setelah klien menyetujui moodboard, skema desain, wireframe utama, dan brand identity</p>
+                        <p><strong>Tujuan:</strong> Membayar effort tim pada tahap konseptual dan visualisasi</p>
+                    </div>
+                </div>
+                
+                <div class="payment-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Pengembangan Teknis & DED</h3>
+                        <div class="percentage">30%</div>
+                        <p><strong>Kondisi:</strong> Setelah penyerahan draf 80% Gambar Kerja lengkap dan finalisasi user interface</p>
+                        <p><strong>Tujuan:</strong> Membayar tim teknis untuk detail struktur, gambar kerja, RAB, dan pengembangan UI/UX</p>
+                    </div>
+                </div>
+                
+                <div class="payment-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Finalisasi & Penyerahan</h3>
+                        <div class="percentage">10-20%</div>
+                        <p><strong>Kondisi:</strong> Setelah semua revisi minor diselesaikan dan dokumen final diserahkan</p>
+                        <p><strong>Tujuan:</strong> Pelunasan sisa biaya dan penyerahan semua final file</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section id="showcase" class="section showcase">
+        <div class="container">
+            <h2 class="section-title">The Showcase</h2>
+            <p class="section-subtitle">Studi Kasus Terpilih</p>
+            
+            <div class="case-study">
+                <h3 class="case-title">Realty X Brand Identity</h3>
+                
+                <div class="case-meta">
+                    <div class="meta-item">
+                        <div class="meta-label">Klien:</div>
+                        <div>Property Developer</div>
+                    </div>
+                    <div class="meta-item">
+                        <div class="meta-label">Layanan:</div>
+                        <div>Brand Identity, Desain Digital</div>
+                    </div>
+                </div>
+                
+                <div class="case-section">
+                    <h4>Ringkasan Proyek</h4>
+                    <p>Pengembangan identitas visual komprehensif untuk developer properti modern yang menargetkan segmen milenial dan profesional muda.</p>
+                </div>
+                
+                <div class="case-section">
+                    <h4>Tantangan Klien (Problem)</h4>
+                    <p>Klien memiliki identitas visual yang usang dan tidak dapat menjangkau target pasar milenial yang menjadi fokus utama bisnis mereka.</p>
+                </div>
+                
+                <div class="case-section">
+                    <h4>Pendekatan Strategis (Logika)</h4>
+                    <p>Kami menerapkan <strong>Pendekatan Holistik</strong> melalui riset pasar mendalam, analisis kompetitor, dan pengembangan persona konsumen untuk menghubungkan strategi bisnis dengan solusi desain yang tepat sasaran.</p>
+                </div>
+                
+                <div class="case-section">
+                    <h4>Solusi Desain (Estetika)</h4>
+                    <p>Menciptakan sistem identitas visual yang <strong>Elegan dan Modern</strong> dengan Primary Logo yang mencerminkan profesionalisme, palet warna yang kontemporer, dan tipografi yang mudah dibaca di berbagai media digital maupun cetak.</p>
+                </div>
+                
+                <div class="case-section">
+                    <h4>Dampak</h4>
+                    <p>Peningkatan brand recognition sebesar 40% dan engagement rate di media digital meningkat 60% dalam 3 bulan pertama implementasi.</p>
+                </div>
+            </div>
+            
+            <div class="case-study">
+                <h3 class="case-title">Creative Hub UI/UX Design</h3>
+                
+                <div class="case-meta">
+                    <div class="meta-item">
+                        <div class="meta-label">Klien:</div>
+                        <div>Creative Institution</div>
+                    </div>
+                    <div class="meta-item">
+                        <div class="meta-label">Layanan:</div>
+                        <div>UI/UX Design, Web Development</div>
+                    </div>
+                </div>
+                
+                <div class="case-section">
+                    <h4>Ringkasan Proyek</h4>
+                    <p>Perancangan platform digital untuk komunitas kreatif yang memfasilitasi kolaborasi dan showcase karya.</p>
+                </div>
+                
+                <div class="case-section">
+                    <h4>Pendekatan Strategis (Logika)</h4>
+                    <p>Menggunakan <strong>Human-Centered Design</strong> untuk memahami kebutuhan spesifik komunitas kreatif dan menciptakan user journey yang intuitif.</p>
+                </div>
+                
+                <div class="case-section">
+                    <h4>Solusi Desain (Estetika)</h4>
+                    <p>Interface yang <strong>Visioner dan Fleksibel</strong> dengan sistem navigasi yang adaptif dan visual hierarchy yang mendukung showcase karya kreatif.</p>
+                </div>
+            </div>
+            
+            <div class="case-study">
+                <h3 class="case-title">StartupTech Brand Ecosystem</h3>
+                
+                <div class="case-meta">
+                    <div class="meta-item">
+                        <div class="meta-label">Klien:</div>
+                        <div>Start-up</div>
+                    </div>
+                    <div class="meta-item">
+                        <div class="meta-label">Layanan:</div>
+                        <div>Brand Strategy, Visual Identity, Digital Assets</div>
+                    </div>
+                </div>
+                
+                <div class="case-section">
+                    <h4>Ringkasan Proyek</h4>
+                    <p>Pembangunan ekosistem brand lengkap untuk startup teknologi dari konsep hingga implementasi global.</p>
+                </div>
+                
+                <div class="case-section">
+                    <h4>Pendekatan Strategis (Logika)</h4>
+                    <p>Menerapkan <strong>Multidisciplinary Collaboration</strong> dan <strong>Global Collaboration</strong> untuk menciptakan brand yang scalable dan relevan di pasar internasional.</p>
+                </div>
+                
+                <div class="case-section">
+                    <h4>Dampak</h4>
+                    <p>Startup berhasil mendapatkan pendanaan seri A dengan valuasi 25% lebih tinggi dari proyeksi awal, dengan brand recognition yang kuat di target market.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="section cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="section-title">Mari Ciptakan Visi Anda</h2>
+                <p class="description">
+                    Kami adalah mitra yang siap mengintegrasikan <strong>Logika</strong> (Presisi Teknis) dengan <strong>Kreativitas</strong> (Bakat Artistik) untuk proyek Anda berikutnya.
+                </p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="meta-label">Email</div>
+                        <div>hello@monaksastudio.com</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="meta-label">WhatsApp</div>
+                        <div>+62 812-3456-7890</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="meta-label">Website</div>
+                        <div>www.monaksastudio.com</div>
+                    </div>
+                </div>
+                
+                <div class="tagline" style="margin-top: 40px;">
+                    <strong>Monaksa Studio.</strong><br>
+                    "One Studio, Infinite Visions."
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Smooth scrolling function
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        // Tab functionality for services
+        function showTab(tabName) {
+            // Hide all tab contents
+            const tabContents = document.querySelectorAll('.tab-content');
+            tabContents.forEach(content => {
+                content.classList.remove('active');
+            });
+
+            // Remove active class from all buttons
+            const tabButtons = document.querySelectorAll('.tab-btn');
+            tabButtons.forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Show selected tab content
+            document.getElementById(tabName).classList.add('active');
+            
+            // Add active class to clicked button
+            event.target.classList.add('active');
+        }
+
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('.section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Navbar background change on scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.nav');
+            if (window.scrollY > 100) {
+                nav.style.background = 'rgba(25, 42, 86, 0.98)';
+            } else {
+                nav.style.background = 'rgba(25, 42, 86, 0.95)';
+            }
+        });
+    </script>
+</body>
+</html>
